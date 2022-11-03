@@ -74,32 +74,27 @@ form {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-@media (min-width: 700px) and (max-width: 1000px) 
-{
+@media (min-width: 700px) and (max-width: 1000px) {
+
     .gridPadre{
         grid-template-areas:
         "header header"
         "nav nav"
-        "casaA casaB"
-        "casaC casaD"
-        "footer footer";
-    }
+        "footer footer" }
+        
     section img {
         width: 300px;
     }
-}
 
+}
 /* vista movil */
 
-@media (max-width: 699px) {
+@media (max-width: 699px) 
     .gridPadre{
         grid-template-areas:
         "header"
         "nav"
-        "casaA"
-        "casaB"
-        "casaC"
-        "casaD"
+        
         "footer";
     }
     html {
